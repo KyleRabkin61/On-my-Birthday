@@ -33,9 +33,10 @@ body {
     padding:20px;
 }
 .description {
-     background: #ececec;
+    background: #ececec;
     height:500px;
     position: relative;
     top:50px;
     margin-bottom:50px;
+    padding:20px;
 }
