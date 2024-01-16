@@ -1,0 +1,35 @@
+/* .first-color { 
+	background: #ececec; 
+}
+	
+.second-color { 
+	background: #9fd3c7; 
+}
+
+.third-color { 
+	background: #385170; 
+}
+
+.fourth-color { 
+	background: #142d4c; 
+} */
+
+body {
+    background: #385170;
+}
+.navbar {
+	background: #142d4c;
+}
+.image {
+    background: #9fd3c7;
+    height:500px;
+    position: relative;
+    top:50px;
+    margin-bottom: 20px;
+}
+.description {
+     background: #ececec;
+    height:500px;
+    position: relative;
+    top:50px;
+}
