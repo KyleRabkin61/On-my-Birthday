@@ -19,6 +19,7 @@ body {
 }
 .navbar {
 	background: #142d4c;
+    height:100px;
 }
 .image {
     background: #9fd3c7;
