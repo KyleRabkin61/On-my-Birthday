@@ -13,10 +13,13 @@
 .fourth-color { 
 	background: #142d4c; 
 } */
-
+* {
+    box-sizing: border-box;
+}
 body {
     background: #385170;
 }
+/* navbar css */
 .navbar {
 	background: #142d4c;
     height:150px;
@@ -24,6 +27,7 @@ body {
 .navbar-brand {
     font-size:45px;
 }
+/* description css */
 .description {
     background: #ececec;
     height:400px;
@@ -33,6 +37,7 @@ body {
     padding:20px;
     overflow:scroll;
 }
+/* image css */
 .image {
     background: #9fd3c7;
     height:400px;
@@ -44,16 +49,14 @@ body {
     height:400px;
     padding:20px;
 }
+/* hr css */
 hr {
     border:solid white 2px;
     opacity:1;
     margin-top:50px;
     margin-bottom:50px;
 }
-.btn {
-    
-
-}
+/* button css */
 .button1 {
     border-radius:50%;
     width:175px;
@@ -61,16 +64,13 @@ hr {
     margin:20px;
     box-shadow:6px 6px 4px black;
     background: #ececec;
-    transition:0.5s;
-}
-.button1:hover {
-    background: #ececec;
+    transition:0.125s;
 }
 .button1:active {
     background:#ececec;
     box-shadow:none;
     border:none;
-    transition:0.5s;
+    transition:0.125s;
 }
 .button2 {
     border-radius:50%;
@@ -79,12 +79,15 @@ hr {
     margin:20px;
     box-shadow:6px 6px 4px black;
     background: #9fd3c7;
-}
-.button2:hover {
-    background: #9fd3c7;
+    transition:0.125s;
 }
 .button2:active {
     background:#9fd3c7;
     box-shadow:none;
     border:none;
+    transition:0.125s;
+}
+/* footer css */
+footer {
+    background: #142d4c;
 }
