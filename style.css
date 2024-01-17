@@ -19,7 +19,10 @@ body {
 }
 .navbar {
 	background: #142d4c;
-    height:100px;
+    height:150px;
+}
+.navbar-brand {
+    font-size:45px;
 }
 .description {
     background: #ececec;
@@ -28,6 +31,7 @@ body {
     top:50px;
     margin-bottom:50px;
     padding:20px;
+    overflow:scroll;
 }
 .image {
     background: #9fd3c7;
@@ -47,14 +51,17 @@ hr {
     margin-bottom:50px;
 }
 .btn {
+    
+
+}
+.button1 {
     border-radius:50%;
     width:175px;
     height:175px;
     margin:20px;
     box-shadow:6px 6px 4px black;
-}
-.button1 {
     background: #ececec;
+    transition:0.5s;
 }
 .button1:hover {
     background: #ececec;
@@ -63,8 +70,14 @@ hr {
     background:#ececec;
     box-shadow:none;
     border:none;
+    transition:0.5s;
 }
 .button2 {
+    border-radius:50%;
+    width:175px;
+    height:175px;
+    margin:20px;
+    box-shadow:6px 6px 4px black;
     background: #9fd3c7;
 }
 .button2:hover {
