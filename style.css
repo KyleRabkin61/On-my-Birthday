@@ -21,22 +21,57 @@ body {
 	background: #142d4c;
     height:100px;
 }
+.description {
+    background: #ececec;
+    height:400px;
+    position: relative;
+    top:50px;
+    margin-bottom:50px;
+    padding:20px;
+}
 .image {
     background: #9fd3c7;
-    height:500px;
+    height:400px;
     position: relative;
     top:50px;
     margin-bottom:50px;
 }
 .daimage {
-    height:500px;
+    height:400px;
     padding:20px;
 }
-.description {
-    background: #ececec;
-    height:500px;
-    position: relative;
-    top:50px;
+hr {
+    border:solid white 2px;
+    opacity:1;
+    margin-top:50px;
     margin-bottom:50px;
-    padding:20px;
+}
+.btn {
+    border-radius:50%;
+    width:175px;
+    height:175px;
+    margin:20px;
+    box-shadow:6px 6px 4px black;
+}
+.button1 {
+    background: #ececec;
+}
+.button1:hover {
+    background: #ececec;
+}
+.button1:active {
+    background:#ececec;
+    box-shadow:none;
+    border:none;
+}
+.button2 {
+    background: #9fd3c7;
+}
+.button2:hover {
+    background: #9fd3c7;
+}
+.button2:active {
+    background:#9fd3c7;
+    box-shadow:none;
+    border:none;
 }
