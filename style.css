@@ -1,4 +1,6 @@
-/* .first-color { 
+/* 2007 colors
+
+.first-color { 
 	background: #ececec; 
 }
 	
@@ -12,6 +14,42 @@
 
 .fourth-color { 
 	background: #142d4c; 
+}*/
+
+/* 1943 colors
+
+.first-color { 
+	background: #222831; 
+}
+	
+.second-color { 
+	background: #393e46; 
+}
+
+.third-color { 
+	background: #f96d00; 
+}
+
+.fourth-color { 
+	background: #f2f2f2; 
+} */
+
+/* 1975 colors 
+
+.first-color { 
+	background: #d3d6db; 
+}
+	
+.second-color { 
+	background: #3a4750; 
+}
+
+.third-color { 
+	background: #303841; 
+}
+
+.fourth-color { 
+	background: #be3144; 
 } */
 * {
     box-sizing: border-box;
@@ -48,6 +86,9 @@ body {
 .daimage {
     height:400px;
     padding:20px;
+}
+.what {
+    color:white;
 }
 /* hr css */
 hr {
@@ -90,4 +131,5 @@ hr {
 /* footer css */
 footer {
     background: #142d4c;
+    height:100px;
 }
