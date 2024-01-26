@@ -1,0 +1,1 @@
+Hello there! This website you are about to access is all about my birthday! If you wanna see other events that happened on my birthday, April 19, click on the buttons at towards the bottom of the page. Otherwise, if you wold like to return back to the default page, click at the top, where it says, "On My Birthday . . ." Enjoy!
