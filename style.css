@@ -1,4 +1,6 @@
-/* .first-color { 
+/* 2007 colors
+
+.first-color { 
 	background: #ececec; 
 }
 	
@@ -12,7 +14,99 @@
 
 .fourth-color { 
 	background: #142d4c; 
+}*/
+
+/* 1943 colors
+
+.first-color { 
+	background: #222831; 
+}
+	
+.second-color { 
+	background: #393e46; 
+}
+
+.third-color { 
+	background: #f96d00; 
+}
+
+.fourth-color { 
+	background: #f2f2f2; 
 } */
+
+/* 1975 colors 
+
+.first-color { 
+	background: #d3d6db; 
+}
+	
+.second-color { 
+	background: #3a4750; 
+}
+
+.third-color { 
+	background: #303841; 
+}
+
+.fourth-color { 
+	background: #be3144; 
+} */
+
+/* 1993 colors
+
+.first-color { 
+	background: #2e94b9; 
+}
+	
+.second-color { 
+	background: #475053; 
+}
+
+.third-color { 
+	background: #acdcee; 
+}
+
+.fourth-color { 
+	background: #f0fbff; 
+}*/
+
+/* 1995 colors
+
+.first-color { 
+	background: #fe7847; 
+}
+	
+.second-color { 
+	background: #ca2c3f; 
+}
+
+.third-color { 
+	background: #a21738; 
+}
+
+.fourth-color { 
+	background: #4c0b2f; 
+}*/
+
+/* 2018
+
+.first-color { 
+	background: #27296d; 
+}
+	
+.second-color { 
+	background: #5e63b6; 
+}
+
+.third-color { 
+	background: #a393eb; 
+}
+
+.fourth-color { 
+	background: #f5c7f7; 
+}
+
+*/
 * {
     box-sizing: border-box;
 }
@@ -49,9 +143,12 @@ body {
     height:400px;
     padding:20px;
 }
+.what {
+    color:white;
+}
 /* hr css */
 hr {
-    border:solid white 2px;
+    border:solid #ececec 2px;
     opacity:1;
     margin-top:50px;
     margin-bottom:50px;
@@ -90,4 +187,27 @@ hr {
 /* footer css */
 footer {
     background: #142d4c;
+    height:100px;
 }
+/* scroll bar css */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:grey;
+    transition:0.5s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    transition:0.5s;
+  }
