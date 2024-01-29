@@ -119,6 +119,8 @@ body {
     height:150px;
 }
 .navbar-brand {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
     font-size:45px;
 }
 /* description css */
@@ -130,6 +132,15 @@ body {
     margin-bottom:50px;
     padding:20px;
     overflow:scroll;
+}
+.title {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+}
+.para {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 /* image css */
 .image {
@@ -144,6 +155,8 @@ body {
     padding:20px;
 }
 .what {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
     color:white;
 }
 /* hr css */
@@ -162,6 +175,10 @@ hr {
     box-shadow:6px 6px 4px black;
     background: #ececec;
     transition:0.125s;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
 }
 .button1:active {
     background:#ececec;
@@ -177,6 +194,9 @@ hr {
     box-shadow:6px 6px 4px black;
     background: #9fd3c7;
     transition:0.125s;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .button2:active {
     background:#9fd3c7;
@@ -188,6 +208,8 @@ hr {
 footer {
     background: #142d4c;
     height:100px;
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
 }
 /* scroll bar css */
 /* width */
